@@ -1,9 +1,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.zoom.info</groupId>
-  <artifactId>ZInfo</artifactId>
+  <groupId>com.demo.proj</groupId>
+  <artifactId>DemoProj</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>ZInfo</name>
+  <name>DemoProj</name>
   
   <dependencies>
 
@@ -144,22 +144,19 @@
          <version>5.0.9</version>
     </dependency>
     
-    <!-- https://mvnrepository.com/artifact/tech.grasshopper/extentreports-cucumber7-adapter -->
-    <dependency>
-    <groupId>tech.grasshopper</groupId>
-    <artifactId>extentreports-cucumber7-adapter</artifactId>
-    <version>1.9.2</version>
-	</dependency>
-    
 	<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
-<dependency>
+	<dependency>
     <groupId>org.apache.commons</groupId>
     <artifactId>commons-lang3</artifactId>
     <version>3.12.0</version>
-</dependency>
-
-      
-      
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-cucumber7-jvm -->
+	<dependency>
+    <groupId>io.qameta.allure</groupId>
+    <artifactId>allure-cucumber7-jvm</artifactId>
+    <version>2.23.0</version>
+	</dependency>
 
 
   </dependencies>
@@ -213,7 +210,6 @@
           <artifactId>maven-project-info-reports-plugin</artifactId>
           <version>3.0.0</version>
         </plugin>
-		
 	  </plugins>
   </build>
   
