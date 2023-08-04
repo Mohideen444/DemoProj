@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-04T12:02:31 IST" name="Default suite" finished-at="2023-08-04T12:04:27 IST" duration-ms="116740">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.demoproj.runner.CucumberRunner@4efc180e]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-08-04T12:02:31 IST" name="Default test" finished-at="2023-08-04T12:04:27 IST" duration-ms="116740">
+      <class name="com.demoproj.runner.CucumberRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.demoproj.runner.CucumberRunner@4efc180e]" started-at="2023-08-04T12:02:31 IST" name="setUpClass" finished-at="2023-08-04T12:02:32 IST" duration-ms="1311" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1d4cc7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="startup()[pri:0, instance:com.demoproj.runner.CucumberRunner@4efc180e]" started-at="2023-08-04T12:02:32 IST" name="startup" finished-at="2023-08-04T12:02:32 IST" duration-ms="302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.demoproj.runner.CucumberRunner@4efc180e]" started-at="2023-08-04T12:02:32 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-04T12:04:27 IST" duration-ms="114820" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check the login error on orange HRM when using invalid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate the login functionality of Orange HRM"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoproj.runner.CucumberRunner@4efc180e]" started-at="2023-08-04T12:04:27 IST" name="tearDown" finished-at="2023-08-04T12:04:27 IST" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.demoproj.runner.CucumberRunner@4efc180e]" started-at="2023-08-04T12:04:27 IST" name="tearDownClass" finished-at="2023-08-04T12:04:27 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.demoproj.runner.CucumberRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
